@@ -39,7 +39,7 @@ cnoremap %% <C-R>=expand('%:h').'/'<cr>
 nnoremap <leader><leader> <c-^>
 
 " relative line numbers
-set rnu
+set nu
 
 " highlight whitespaces
 highlight ExtraWhitespace ctermbg=red guibg=red
