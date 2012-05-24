@@ -28,3 +28,24 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vimerl"]
+	path = bundle/vimerl
+	url = https://github.com/oscarh/vimerl.git
+[submodule "snippets"]
+	path = snippets
+	url = https://github.com/asux/snipmate-snippets.git
+[submodule "bundle/vim-grep"]
+	path = bundle/vim-grep
+	url = https://github.com/vim-scripts/grep.vim.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/akitaonrails/snipmate.vim.git
+[submodule "bundle/vim-autoclose"]
+	path = bundle/vim-autoclose
+	url = https://github.com/Townk/vim-autoclose.git
+[submodule "bundle/gist"]
+	path = bundle/gist
+	url = https://github.com/mattn/gist-vim.git
+[submodule "bundle/vim-webapi"]
+	path = bundle/vim-webapi
+	url = https://github.com/mattn/webapi-vim.git

@@ -5,6 +5,7 @@ syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
+filetype plugin on
 
 "" Whitespace
 set nowrap                      " don't wrap lines
@@ -20,13 +21,13 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
+" Code folding
+set nofoldenable                " disable code folding
+
 " ctrlp
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_working_path_mode = 2
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/public/uploads/* " for Linux/MacOSX
-
-" use comma as <Leader> key instead of backslash
-let mapleader=","
 
 " NERDTree
 map <leader>p :NERDTree<cr>
@@ -40,7 +41,7 @@ cnoremap %% <C-R>=expand('%:h').'/'<cr>
 " switch to previous buffer
 nnoremap <leader><leader> <c-^>
 
-" relative line numbers
+" line numbers
 set nu
 
 " highlight whitespaces
