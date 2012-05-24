@@ -30,6 +30,8 @@ let mapleader=","
 
 " NERDTree
 map <leader>p :NERDTree<cr>
+" Ctrl-P
+map <leader>t :CtrlP<cr>
 
 " double percentage sign in command mode is expanded
 " to directory of current file - http://vimcasts.org/e/14
@@ -78,5 +80,5 @@ set colorcolumn=80
 
 " color scheme
 set background=dark
-colorscheme railscasts
+colorscheme mustang
 
