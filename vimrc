@@ -83,3 +83,5 @@ set colorcolumn=80
 set background=dark
 colorscheme mustang
 
+set nocompatible
+set laststatus=2
