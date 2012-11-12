@@ -83,5 +83,7 @@ set colorcolumn=80
 set background=dark
 colorscheme mustang
 
+" Powerline
 set nocompatible
 set laststatus=2
+let g:Powerline_symbols = 'fancy'
