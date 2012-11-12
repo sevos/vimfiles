@@ -81,7 +81,7 @@ set colorcolumn=80
 
 " color scheme
 set background=dark
-colorscheme mustang
+colorscheme Tomorrow-Night
 
 " Powerline
 set nocompatible
